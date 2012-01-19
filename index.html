@@ -1,0 +1,26 @@
+<html>
+	<head>
+		<title>Placeholder test</title>
+	</head>
+	<body>
+		<h1></h1>
+		<p></p>
+		<h2></h2>
+		<p></p>
+		<h3></h3>
+		<p>HELLO!</p>
+		<form>
+			<label></label>
+			<input type="text" name="" /> 
+		</form>
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+		<script src="jquery.placeholdify.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript" charset="utf-8">
+			$(function(){
+				$('h1,p,label').placeholdify({ });
+				$('h2').placeholdify({ text: 'hipster' });
+				$('h3').placeholdify({ text: 'gangster' });
+			});
+		</script>
+	</body>
+</html>
